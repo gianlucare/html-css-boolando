@@ -52,4 +52,35 @@
     display: block;
   }
   
- 
+
+
+
+
+  footer {
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+  }
+  
+  .footer {
+    justify-content: space-between;
+    flex-direction: center;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+  }
+  
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  footer a {
+    font-size: 12px;
+  }
+  
+  .icon a {
+    font-size: 16px;
+  }
